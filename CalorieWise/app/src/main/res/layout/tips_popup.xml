@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/dialog_background">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calories Helper"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:paddingBottom="8dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Explanation of low, stable, and high calories for an average human:"
+        android:textColor="#FFFFFF"
+        android:paddingBottom="8dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="• Low: Less than 1500 calories"
+        android:textColor="#00FFFF"
+        android:paddingBottom="4dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="• Stable: Between 1500 and 2300 calories"
+        android:textColor="#FFFF00"
+        android:paddingBottom="4dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="• High: More than 2300 calories"
+        android:textColor="#FF0000"
+        android:layout_marginBottom="10dp"
+        android:paddingBottom="8dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="• Glass of coffee with milk - 150 calories ☕"
+        android:textColor="#FFFFFF"
+        android:paddingBottom="4dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="• Apple - 95 calories 🍎"
+        android:textColor="#FFFFFF"
+        android:paddingBottom="4dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="• Omelette of 1 egg - 94 calories 🍳"
+        android:textColor="#FFFFFF"
+        android:paddingBottom="4dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="• Omelette of 2 eggs with tuna - 200 calories 🍳🐟"
+        android:textColor="#FFFFFF"
+        android:paddingBottom="4dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="• Pasta - 220 calories 🍝"
+        android:textColor="#FFFFFF"
+        android:paddingBottom="4dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="• Pasta stuffed with meat - 320 calories 🍝🍖"
+        android:textColor="#FFFFFF"
+        android:paddingBottom="4dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="• Soup - 100 calories 🍲"
+        android:textColor="#FFFFFF"
+        android:paddingBottom="4dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="• Glass of fruit juice - 120 calories 🍹"
+        android:textColor="#FFFFFF"
+        android:paddingBottom="4dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="• Bread - 80 calories 🍞"
+        android:textColor="#FFFFFF"
+        android:paddingBottom="4dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="• Sandwich with ham and cheese - 300 calories 🥪"
+        android:textColor="#FFFFFF"
+        android:paddingBottom="4dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="• Banana - 105 calories 🍌"
+        android:textColor="#FFFFFF"
+        android:paddingBottom="4dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="• Rice (1 cup) - 200 calories 🍚"
+        android:textColor="#FFFFFF"
+        android:paddingBottom="4dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="• Slice of cheese - 70 calories 🧀"
+        android:textColor="#FFFFFF"
+        android:paddingBottom="4dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="• Slice of ham - 30 calories 🍖"
+        android:textColor="#FFFFFF"
+        android:paddingBottom="4dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="• Orange - 62 calories 🍊"
+        android:textColor="#FFFFFF"
+        android:paddingBottom="4dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="• Grilled chicken breast - 165 calories 🍗"
+        android:textColor="#FFFFFF"
+        android:paddingBottom="4dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="• Salad (1 cup) - 150 calories 🥗"
+        android:textColor="#FFFFFF"
+        android:paddingBottom="4dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="• Yogurt (1 cup) - 150 calories 🥛"
+        android:textColor="#FFFFFF"
+        android:paddingBottom="4dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="• Salmon (3 oz) - 180 calories 🐟"
+        android:textColor="#FFFFFF"
+        android:paddingBottom="4dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="• Cream (1 tbsp) - 52 calories 🥄"
+        android:textColor="#FFFFFF"
+        android:paddingBottom="4dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="• Nuts (1 oz) - 160 calories 🥜"
+        android:textColor="#FFFFFF"
+        android:paddingBottom="4dp" />
+
+    <Button
+        android:id="@+id/close_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Close"
+        android:layout_gravity="center"
+        android:padding="8dp"
+        android:backgroundTint="#FF0000"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>
+
+</ScrollView>

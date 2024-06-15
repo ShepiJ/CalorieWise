@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#292727"
+    tools:context=".MainActivity"
+    android:id="@+id/main"
+    android:padding="20dp">
+
+    <!-- Header Layout -->
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <!-- App Title -->
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="CalorieWise"
+            android:textColor="#FFFFFF"
+            android:letterSpacing="0.1"
+            android:textSize="24sp"
+            android:fontFamily="@font/fatts"
+            android:textStyle="bold"
+            android:gravity="center_vertical"
+            android:padding="8dp" />
+
+        <!-- Tips Button -->
+        <Button
+            android:id="@+id/Tips"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tips"
+            android:padding="8dp"
+            android:backgroundTint="#37AC1B"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp"
+            android:layout_marginEnd="8dp" />
+
+        <!-- Previous Month Button -->
+        <Button
+            android:id="@+id/previous_month_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="History"
+            android:padding="8dp"
+            android:backgroundTint="#FF0000"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp"
+            android:layout_marginEnd="8dp" />
+    </LinearLayout>
+
+
+    <!-- Divider -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#FFFFFF"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Morning Meal -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Morning Meal"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:padding="8dp" />
+
+    <EditText
+        android:id="@+id/morning"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter calories"
+        android:numeric="decimal"
+        android:background="@android:color/white"
+        android:padding="8dp"
+        android:inputType="number" />
+
+    <!-- Mid-Day Meal -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mid-Day Meal"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:padding="8dp"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/mid_day"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:numeric="decimal"
+        android:hint="Enter calories"
+        android:background="@android:color/white"
+        android:padding="8dp"
+        android:inputType="number" />
+
+    <!-- Night Meal -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Night Meal"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:padding="8dp"
+        android:layout_marginTop="16dp" />
+
+    <!-- Total Today -->
+    <EditText
+        android:id="@+id/night"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:numeric="decimal"
+        android:layout_marginBottom="50dp"
+        android:background="@android:color/white"
+        android:hint="Enter calories"
+        android:inputType="number"
+        android:padding="8dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total Today"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:padding="8dp"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/total_calories"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:padding="8dp"
+        android:text="0"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+
+
+</LinearLayout>
